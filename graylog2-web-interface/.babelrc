@@ -17,11 +17,6 @@
           ]
         }
       }
-    },
-    "start-nohmr": {
-      "plugins": [
-        "react-auto-display-name"
-      ]
     }
   }
 }

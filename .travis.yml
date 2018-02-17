@@ -40,13 +40,13 @@ deploy:
     jdk: oraclejdk8
     repo: Graylog2/graylog2-server
   access_key_id: AKIAIGYGO43W76PZMMVA
+  bucket: graylog2-builds
+  local-dir: target/assembly
   provider: s3
   region: eu-west-1
   secret_access_key:
     secure: cYHsMgnAI08sz9G1Qb7ku2HoTaSn/OBBmjBzyYswX0/Kvb2asQcEGZGOEfYNTGOwdN6DP7p3axi5o+FPw2MLGGpBVz3tAtwYWTbzJR8kCEuGwb8N6abpdkGIn4AfifQ+vbn8zJrIB6HfGGRpDM9QnEjJFtpJO+2SjODzbZzkymE=
   skip_cleanup: true
-  local-dir: target/assembly
-  bucket: graylog2-builds
 dist: trusty
 env:
   global:
